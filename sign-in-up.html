@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login / Signup</title>
+  <link rel="stylesheet" href="sing-styles.css"/>
+  <script defer src="interactive.js"></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <a class="icons" href="https://www.vecteezy.com/free-vector/abstract">Abstract Vectors by Vecteezy</a>
+</head>
+<body>
+  <div class="container" id="container">
+   
+    <div class="form-container sign-up">
+      <form action="#">
+        <h1>Registration</h1>
+        <input type="text" placeholder="Username" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button>Register</button>
+        <div class="social">
+          <i class="bx bxl-google"></i>
+          <i class="bx bxl-facebook"></i>
+          <i class="bx bxl-pinterest"></i>
+          <i class="bx bxl-linkedin"></i>
+        </div>
+      </form>
+    </div>
+
+    
+    <div class="form-container sign-in">
+      <form action="#">
+        <h1>Login</h1>
+        <input type="text" placeholder="Username" required />
+        <input type="password" placeholder="Password" required />
+        <a href="#">Forgot password?</a>
+        <button>Login</button>
+        <div class="social">
+          <i class="bx bxl-google"></i>
+          <i class="bx bxl-facebook"></i>
+          <i class="bx bxl-pinterest"></i>
+          <i class="bx bxl-linkedin"></i>
+        </div>
+      </form>
+    </div>
+
+    
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-left">
+          <h1>Welcome Back!</h1>
+          <p>Already have an account?</p>
+          <button class="ghost" id="signIn">Login</button>
+        </div>
+        <div class="overlay-panel overlay-right">
+          <h1>Hello, Welcome!</h1>
+          <p>Don't have an account?</p>
+          <button class="ghost" id="signUp">Register</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="theme-toggle-container">
+  <button class="theme-btn dark" id="darkBtn">
+    <img src="Kepek/moon.jpg" alt="Dark Mode" />
+  </button>
+  <button class="theme-btn light" id="lightBtn">
+    <img src="Kepek/sun.jpg" alt="Light Mode" />
+  </button>
+</div>
+
+    
+</body>
+</html>
