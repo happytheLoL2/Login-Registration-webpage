@@ -12,6 +12,10 @@ This is a responsive and animated login/register page built using HTML, CSS and 
 - Dark mode toggle with animation
 - Clean and modern UI
 
+## 🚀 Demo
+https://bejewelled-brioche-80a706.netlify.app/
+  
+
 ## 🛠️ Technologies Used
 
 - HTML5
